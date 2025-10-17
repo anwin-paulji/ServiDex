@@ -8,6 +8,7 @@ pluginManagement {
             }
         }
         mavenCentral()
+        maven { setUrl("https://jitpack.io") }
         gradlePluginPortal()
     }
 }
@@ -16,9 +17,11 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        maven { setUrl("https://jitpack.io") }
     }
 }
 
 rootProject.name = "Servidex"
 include(":app")
- 
+include(":corelib")
+//include(":cropkit")

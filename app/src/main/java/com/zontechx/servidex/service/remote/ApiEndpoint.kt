@@ -1,0 +1,25 @@
+package com.zontechx.servidex.service.remote
+
+object ApiEndpoint {
+    const val LOGIN_REGISTER = "auth/loginRegister"
+    const val VERIFY_OTP = "auth/verifyOtp"
+    const val CATEGORY_LIST = "services/category/categoryList"
+    const val ADD_USER_SERVICE = "services/provider/addUserService"
+    const val DASHBOARD_DATA = "dashboard/main"
+    const val UPDATE_USER_PROFILE = "users/updateUserProfile"
+    const val BOOK_SERVICE = "bookings/bookService"
+    const val SERVICE_DETAILS = "services/user/getServiceById"
+    const val UPLOAD_IMAGE = "services/provider/uploadServiceImage"
+    const val LOCATION_LIST = "feature/getLocationList"
+    const val RESPECTIVE_SERVICE_LIST = "services/user/respectiveServiceList"
+    const val USER_BOOKINGS = "bookings/user/myBookings"
+    const val PROVIDER_BOOKINGS = "bookings/provider/providerBookingsList"
+    const val UPDATE_BOOKING_STATUS = "bookings/user/updateBookingStatus"
+    const val CUSTOMER_FEEDBACK_NOW = "bookings/user/feedBackNow"
+    const val PROVIDER_FEEDBACK_NOW = "bookings/provider/feedBackNow"
+    const val SERVICE_REVIEWS_LIST = "bookings/user/serviceReviewsList"
+    const val MY_SERVICE_LIST = "services/provider/myServiceList"
+    const val UPDATE_SERVICE_DATA = "services/provider/updateServiceData"
+    const val GET_NEAR_BY_SERVICE_LIST = "services/provider/getNearByServiceList"
+    const val USER_FEEDBACK = "users/userFeedback"
+}

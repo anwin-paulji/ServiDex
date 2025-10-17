@@ -1,5 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Splash theme - Android 12+ splash screen API -->
+    <style name="Theme.Servidex.Splash" parent="android:Theme.Material.Light.NoActionBar">
 
-    <style name="Theme.Servidex" parent="android:Theme.Material.Light.NoActionBar" />
+        <item name="android:windowFullscreen">false</item>
+        <!-- Transparent status bar so it blends -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item> <!-- makes icons dark -->
+        <item name="android:navigationBarColor">@color/white</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:colorBackground">@color/white</item>
+        <item name="android:colorPrimary">@color/white</item>
+        <item name="android:colorPrimaryDark">@color/white</item>
+        <item name="android:colorAccent">@color/white</item>
+
+    </style>
+
+    <!-- Main theme -->
+    <style name="Theme.Servidex" parent="Theme.Material3.Light.NoActionBar">
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:navigationBarColor">@color/white</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    </style>
 </resources>
